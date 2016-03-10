@@ -1,4 +1,7 @@
-package priv.jjzhai.suitetwotest;
+//http://www.yiibai.com/html/testng/2013/0915297.html
+//TestNGÖ´ĞĞ²âÊÔ
+
+package priv.jjzhai.test3;
 
 public class MessageUtil {
 	private String message;
@@ -11,13 +14,6 @@ public class MessageUtil {
 	
 	//print the message
 	public String printMessage() {
-		System.out.println(message);
-		return message;
-	}
-	
-	//add "Hi!" to the message
-	public String salutationMessage() {
-		message = "Hi!" + message;
 		System.out.println(message);
 		return message;
 	}

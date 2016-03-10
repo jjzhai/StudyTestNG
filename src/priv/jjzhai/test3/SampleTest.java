@@ -1,15 +1,15 @@
-package priv.jjzhai.suitetwotest;
+package priv.jjzhai.test3;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test1 {
-	String message = "Manisha";
+class SampleTest {
+	
+	String message = "Hello World";
 	MessageUtil messageUtil = new MessageUtil(message);
 	
 	@Test
 	public void testPrintMessage(){
-		System.out.println("inside testPrintMessage()");
 		Assert.assertEquals(message, messageUtil.printMessage());
 	}
 }

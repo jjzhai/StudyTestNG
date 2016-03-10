@@ -1,4 +1,4 @@
-package priv.jjzhai.suitetwotest;
+package priv.jjzhai.test4;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -1,4 +1,7 @@
-package priv.jjzhai.annotation;
+//http://www.yiibai.com/html/testng/2013/0914296.html
+//TestNG基本注解执行顺序
+
+package priv.jjzhai.test2;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
