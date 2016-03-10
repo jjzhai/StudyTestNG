@@ -2,20 +2,60 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29" started-at="2016-03-10T06:51:37Z" finished-at="2016-03-10T06:51:37Z">
+  <suite name="Default suite" duration-ms="22" started-at="2016-03-10T10:08:09Z" finished-at="2016-03-10T10:08:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29" started-at="2016-03-10T06:51:37Z" finished-at="2016-03-10T06:51:37Z">
-      <class name="priv.jjzhai.employee.TestEmployeeDetails">
-        <test-method status="PASS" signature="testCalculateAppriasal()[pri:0, instance:priv.jjzhai.employee.TestEmployeeDetails@36ac1596]" name="testCalculateAppriasal" duration-ms="13" started-at="2016-03-10T14:51:37Z" finished-at="2016-03-10T14:51:37Z">
+    <test name="Default test" duration-ms="22" started-at="2016-03-10T10:08:09Z" finished-at="2016-03-10T10:08:09Z">
+      <class name="priv.jjzhai.Annotation.TestngAnnotation">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCalculateAppriasal -->
-        <test-method status="PASS" signature="testCalculateYearlySalary()[pri:0, instance:priv.jjzhai.employee.TestEmployeeDetails@36ac1596]" name="testCalculateYearlySalary" duration-ms="0" started-at="2016-03-10T14:51:37Z" finished-at="2016-03-10T14:51:37Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCalculateYearlySalary -->
-      </class> <!-- priv.jjzhai.employee.TestEmployeeDetails -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="testCase1" duration-ms="4" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="testCase2" duration-ms="1" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:priv.jjzhai.Annotation.TestngAnnotation@6c3dc52b]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-03-10T18:08:09Z" finished-at="2016-03-10T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- priv.jjzhai.Annotation.TestngAnnotation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
