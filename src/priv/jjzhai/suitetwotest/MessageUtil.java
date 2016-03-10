@@ -1,4 +1,4 @@
-package priv.jjzhai.message;
+package priv.jjzhai.suitetwotest;
 
 public class MessageUtil {
 	private String message;
@@ -11,6 +11,13 @@ public class MessageUtil {
 	
 	//print the message
 	public String printMessage() {
+		System.out.println(message);
+		return message;
+	}
+	
+	//add "Hi!" to the message
+	public String salutationMessage() {
+		message = "Hi!" + message;
 		System.out.println(message);
 		return message;
 	}
