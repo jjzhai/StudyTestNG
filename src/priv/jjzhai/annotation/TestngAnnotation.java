@@ -1,4 +1,4 @@
-package priv.jjzhai.Annotation;
+package priv.jjzhai.annotation;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;

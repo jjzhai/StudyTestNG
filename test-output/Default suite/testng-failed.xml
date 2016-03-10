@@ -3,7 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="priv.jjzhai.Annotation.TestngAnnotation"/>
+      <class name="priv.jjzhai.message.MessageUtil"/>
+      <class name="priv.jjzhai.message.SampleTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="priv.jjzhai.message.SampleTest">
+        <methods>
+          <include name="testPrintMessage"/>
+        </methods>
+      </class> <!-- priv.jjzhai.message.SampleTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
